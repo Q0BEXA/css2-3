@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Phetsarath:wght@400;700&family=Prata&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#link_box {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 277px;
+    margin-right: 277px;
+}
+
+
+#navigation_logo {
+    vertical-align: middle;
+}
+
+#navigation {
+    max-width: 1183px;
+    width: 100%;
+    background-color: rgba(247, 244, 255, 1);
+    margin-left: auto;
+    padding: 12px 24px;
+}
+
+#contact_button {
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: rgba(142, 38, 192, 1);
+    border: 1px solid rgba(142, 38, 192, 1);
+}
+
+#link_box a {
+    margin-left: 20px;
+    font-family: Inter;
+    color: rgba(50, 50, 50, 1);
+    text-decoration: none;
+}
+
+
+
+
+#main {
+    margin-top: 154px;
+}
+
+
+#main_container {
+    max-width: 1299px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#main_image {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#offer_container {
+    display: inline-block;
+    max-width: 599px;
+    width: 100%;
+    vertical-align: middle;
+    margin-left: 45px;
+    font-family: Inter;
+}
+
+
+#one_section {}
+
+#main_image {
+    max-width: 610px;
+    width: 100%;
+}
+
+#h1 {
+    display: inline-block;
+    font-family: Inter;
+    font-weight: 700;
+    text-align: center;
+}
+
+#we {
+    text-align: center;
+}
+
+
+#main_p {
+    margin-top: 16px;
+    display: inline-block;
+    color: rgba(83, 88, 98, 1);
+    font-size: 20px;
+    font-family: Prata;
+}
+
+#list_div {
+    display: inline-block;
+}
+
+#list {
+    margin-top: 16px;
+    margin-left: 30px;
+    font-family: Inter;
+    font-size: 24px;
+}
+
+#list li {
+    margin-top: 12px;
+}
+
+/*contact*/
+
+#contact_container {
+    margin-top: 83px;
+    max-width: 1221px;
+    max-width: 100%;
+}
+
+#contact_header {
+    max-width: 905px;
+    width: 100%;
+    margin-left: 172.5px;
+}
+
+#contact_headere {
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 56px;
+}
+
+#second_p {
+    color: #535862;
+    font-family: Prata;
+    text-align: center;
+    font-weight: 400;
+}
+
+#send_container {
+    border-radius: 16px;
+    margin-top: 28px;
+    background-color: lightgray;
+    padding: 32px;
+}
+
+#left {
+    border-radius: 16px;
+    padding: 32px;
+    display: inline-block;
+    background-color: #f7f4ff;
+    height: 403px;
+    vertical-align: middle;
+}
+
+#address_box {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 16px;
+}
+
+#location {
+    vertical-align: middle;
+}
+
+#address_p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#glen_p {
+    color: #6D5F8B;
+    font-family: Prata;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#first {}
+
+#second {
+    margin-top: 24px;
+}
+
+#third {
+    margin-top: 24px;
+}
+
+#email {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#address_box_two {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 16px;
+}
+
+#email_txt {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#ex_email {
+    color: #6D5F8B;
+    font-family: Prata;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#phone {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#address_box_three {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 16px;
+}
+
+#phone_p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#ex_phone {
+    color: #6D5F8B;
+    font-family: Prata;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+#right {
+    display: inline-block;
+    margin-left: 24px;
+    vertical-align: middle;
+
+}
+
+#send_message {
+    margin-bottom: 16px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 900;
+    color: rgba(27, 0, 61, 1);
+}
+
+#label_txt {
+    display: block;
+    font-family: Inter;
+}
+
+#text {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #8E26C0;
+    width: 698px;
+    font-family: Inter;
+    margin-top: 8px;
+}
+
+#label_email {
+    display: block;
+    font-family: Inter;
+    margin-top: 24px;
+}
+
+#input_email {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #8E26C0;
+    width: 698px;
+    margin-top: 8px;
+    font-family: Inter;
+}
+
+
+#text_area {
+    display: block;
+    resize: none;
+    width: 698px;
+    height: 100px;
+    border-radius: 8px;
+    margin-top: 24px;
+    border: 1px solid #8E26C0;
+    font-family: Inter;
+    padding-top: 12px;
+    padding-left: 16px;
+}
+
+
+#button_container {
+    max-width: 698px;
+    width: 100%;
+    text-align: right;
+}
+
+#send_button {
+    padding: 12px 24px;
+    width: 140px;
+    height: 48px;
+    border-radius: 8px;
+    background: #8E26C0;
+    color: white;
+    font-size: 16px;
+    border: none;
+    font-family: Inter;
+    margin-top: 24px;
+}
+
+#main_footer {
+    background: #53389E;
+    margin-top: 163px;
+    padding-top: 64px;
+    padding-bottom: 48px;
+}
+
+#footer_container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#down_list a {
+    display: block;
+    text-decoration: none;
+    font-family: Inter;
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+
+#span {
+    padding: 2px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    border-radius: 6px;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+#product_p {
+    margin-bottom: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    color: #D6BBFB;
+    font-size: 14px;
+}
+
+#down_list {
+    display: inline-block;
+    width: 170px;
+    margin-left: 32px;
+}
+
+#up {
+    display: inline;
+}
+
+
+#product_p_ori {
+    margin-bottom: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    color: #D6BBFB;
+    font-size: 14px;
+}
+
+#down_list_ori {
+    display: inline-block;
+    width: 170px;
+    margin-left: 32px;
+}
+
+#up_ori {
+    display: inline;
+}
+
+#down_list_ori a {
+    display: block;
+    text-decoration: none;
+    font-family: Inter;
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+
+
+
+#product_p_sami {
+    margin-bottom: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    color: #D6BBFB;
+    font-size: 14px;
+}
+
+#down_list_sami {
+    display: inline-block;
+    width: 170px;
+    margin-left: 32px;
+}
+
+#up_sami {
+    display: inline;
+}
+
+#down_list_sami a {
+    display: block;
+    text-decoration: none;
+    font-family: Inter;
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+
+
+
+#product_p_otxi {
+    margin-bottom: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    color: #D6BBFB;
+    font-size: 14px;
+}
+
+#down_list_otxi {
+    display: inline-block;
+    width: 170px;
+    margin-left: 32px;
+}
+
+#up_otxi {
+    display: inline;
+}
+
+#down_list_otxi a {
+    display: block;
+    text-decoration: none;
+    font-family: Inter;
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+
+
+
+
+#product_p_xuti {
+    margin-bottom: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    color: #D6BBFB;
+    font-size: 14px;
+}
+
+#down_list_xuti {
+    display: inline-block;
+    width: 170px;
+    margin-left: 32px;
+}
+
+#up_xuti {
+    display: inline;
+}
+
+#down_list_xuti a {
+    display: block;
+    text-decoration: none;
+    font-family: Inter;
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+
+
+
+#product_p_eqvsi {
+    margin-bottom: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    color: #D6BBFB;
+    font-size: 14px;
+}
+
+#down_list_eqvsi {
+    display: inline-block;
+    width: 170px;
+    margin-left: 32px;
+}
+
+#up_eqvsi {
+    display: inline;
+}
+
+#down_list_eqvsi a {
+    display: block;
+    text-decoration: none;
+    font-family: Inter;
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+
+
+#down {
+    margin-top: 64px;
+    border-top: 1px solid #7F56D9; ;
+}
+
+
+#down_div {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 1077px;
+    width: 100%;
+}
+
+#logo_ori {
+    vertical-align: middle;
+}
+
+#down_p {
+    text-align: right;
+    color: rgba(214, 187, 251, 1);
+}
